@@ -5,10 +5,9 @@ export default class App extends Component {
     render() {
         return (
             <div className='container'>
-                <h2>App</h2>
-                <ul>
+                <ul className='nav nav-pills'>
                     <li><Link to='/admin'>Admin</Link></li>
-                    <li><Link to='/genre'>Genre</Link></li>
+                    <li><Link to='/list'>List</Link></li>
                 </ul>
                 {this.props.children}
             </div>
